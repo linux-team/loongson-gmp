@@ -17,8 +17,12 @@ along with the GNU MP Library.  If not, see http://www.gnu.org/licenses/.
 
 注意：
 	如果你是mips架构龙芯debian系统用户，请将gmp库安装到/usr
-	即配置参数如下：
+	配置编译过程如下：
 	./configure --prefix=/usr
+	make
+	make check
+	sudo make uninstall 
+	sudo make install
 ===================================================================
 
 
