@@ -16,10 +16,9 @@ You should have received a copy of the GNU Lesser General Public License
 along with the GNU MP Library.  If not, see http://www.gnu.org/licenses/.
 
 注意：
-	如果你是mips架构龙芯用户，只需要按照如下步骤即可将gmp库安装到/usr
-目录中(需要你的系统已经安装了gcc)
-	cd ./deepin
-	./install.sh
+	如果你是mips架构龙芯debian系统用户，请将gmp库安装到/usr
+	即配置参数如下：
+	./configure --prefix=/usr
 ===================================================================
 
 
