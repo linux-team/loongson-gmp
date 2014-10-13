@@ -21,7 +21,6 @@ along with the GNU MP Library.  If not, see http://www.gnu.org/licenses/.
 	./configure --prefix=/usr
 	make
 	make check
-	sudo make uninstall 
 	sudo make install
 ===================================================================
 
